@@ -23,7 +23,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-
+ci = [
+    "pytest",
+    "pytest-dotenv",
+]
 
 [tool.ruff]
 line-length = 79 
@@ -42,9 +45,4 @@ smolagents = [
 openai = [
     "openai",
     "openai-agents",
-]
-
-ci = [
-    "pytest",
-    "pytest-dotenv",
 ]
