@@ -1,7 +1,7 @@
 [project]
-name = "mcp-course"
+name = "mcp-project"
 version = "0.1.0"
-description = "MCP Course projects"
+description = "MCP projects"
 requires-python = ">=3.11, <3.14"
 dependencies = [
     # Pin click
